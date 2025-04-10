@@ -82,7 +82,7 @@ Com foco em **design responsivo**, o sistema se adapta a diferentes resoluções
 
 ### 🔗 Links Importantes
 
-- 📄 **Documentação do Projeto**:📎 [Acessar PDF](Inserir documento pdf projeto)
+- 📄 **Documentação do Projeto**:📎 [Acessar PDF](https://drive.google.com/file/d/1cG8xmd10pujRAxUgxX-PIkmsG8amzWXw/view?usp=sharing)
 - 📬 **Informações de Contato**:  
   - 👤 **Erick Silva** - [GitHub](https://github.com/ericksilva)  
   - 👤 **Anna Beatriz** - [GitHub](https://github.com/annabeatriz)  
