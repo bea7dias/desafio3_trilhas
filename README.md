@@ -89,5 +89,5 @@ Com foco em **design responsivo**, o sistema se adapta a diferentes resoluções
   - ✉️ **Erick**: 📩 santoserick0031@gmail.com  
   - ✉️ **Beatriz**: 📩 bia.dias.cardoso720@gmail.com
 
-- 🔗 **Acesso ao Formulário**: 🌍 🔗 [Formulário Online](desafio3-trilhas-h079wujj3-annas-projects-2c50d1fb.vercel.app)  
+- 🔗 **Acesso ao Formulário**: 🌍 🔗 [Formulário Online](https://desafio3-trilhas.vercel.app/)  
 - 📂 🔗 **[Repositório do Projeto](https://github.com/bea7dias/desafio3_trilhas.git)**
