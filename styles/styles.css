@@ -52,7 +52,7 @@ body {
     gap: 2rem;
 }
 
-.buttoms__edital,
+.buttoms__login,
 .buttoms__inscrito {
     background-color: #ffffff;
     color: #123458;
@@ -88,7 +88,7 @@ body {
 }
 
 @media (max-height: 882px){
-    .buttoms__edital, .buttoms__inscrito{
+    .buttoms__login, .buttoms__inscrito{
         width: 17rem;
         height: 6rem;
         font-size: 2.5rem;
@@ -104,7 +104,7 @@ body {
         font-size: 5rem;
     }
 
-    .buttoms__edital,
+    .buttoms__login,
     .buttoms__inscrito {
         width: 16rem;
         height: 5rem;
