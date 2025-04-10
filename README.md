@@ -4,7 +4,8 @@
 
 🎬 Vídeo de apresentação: [Assista ao video completo!](inserir drive video apresentação)
 
-![gifpresenta_desafio3](https://github.com/user-attachments/assets/40dda38e-34db-4666-aafd-1cc533197b9f)
+
+![gifpresenta_desafio3](https://github.com/user-attachments/assets/c8be7b71-7d72-4ea2-9e98-a3bd02a07789)
 
 
 ### 🎯 Objetivo do Sistema
