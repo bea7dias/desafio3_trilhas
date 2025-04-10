@@ -2,7 +2,7 @@
 
 ## 🎥 Apresentação do Projeto
 
-🎬 Vídeo de apresentação: [Assista ao video completo!](inserir drive video apresentação)
+🎬 Vídeo de apresentação: [Assista ao video completo!](https://youtu.be/etV5MeBotW4)
 
 
 ![gifpresenta_desafio3](https://github.com/user-attachments/assets/c8be7b71-7d72-4ea2-9e98-a3bd02a07789)
@@ -89,5 +89,5 @@ Com foco em **design responsivo**, o sistema se adapta a diferentes resoluções
   - ✉️ **Erick**: 📩 santoserick0031@gmail.com  
   - ✉️ **Beatriz**: 📩 bia.dias.cardoso720@gmail.com
 
-- 🔗 **Acesso ao Formulário**: 🌍 🔗 [Formulário Online](desafio3-trilhas.vercel.app)  
+- 🔗 **Acesso ao Formulário**: 🌍 🔗 [Formulário Online](desafio3-trilhas-h079wujj3-annas-projects-2c50d1fb.vercel.app)  
 - 📂 🔗 **[Repositório do Projeto](https://github.com/bea7dias/desafio3_trilhas.git)**
