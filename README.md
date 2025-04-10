@@ -89,4 +89,4 @@ Com foco em **design responsivo**, o sistema se adapta a diferentes resoluções
   - ✉️ **Beatriz**: 📩 bia.dias.cardoso720@gmail.com
 
 - 🔗 **Acesso ao Formulário**: 🌍 🔗 [Formulário Online](desafio3-trilhas.vercel.app)  
-- 📂 🔗 **[Repositório do Projeto](inserir lik github repositorio desafio 3)**
+- 📂 🔗 **[Repositório do Projeto](https://github.com/bea7dias/desafio3_trilhas.git)**
