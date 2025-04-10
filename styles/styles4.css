@@ -1,0 +1,74 @@
+@import url('https://fonts.cdnfonts.com/css/tt-octosquares-trl');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Trad+Guides&display=swap');
+
+:root{
+    --cor-fundo: #123458;
+    --cor-color: #ffffff;
+    --cor-secundaria: #d4c9be;
+    --cor-rodape: #030303;
+
+    --font-principal: 'TT Octosquares Trial Variable', sans-serif;
+    --font-secundaria: "Montserrat", sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-color);
+}
+
+.titulo__pag{
+    font-family: var(--font-principal);
+    font-size: 4rem;
+}
+
+.formes{
+    font-family: var(--font-principal);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    gap: 2rem;
+}
+
+.titulo{
+    font-family: var(--font-principal);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--cor-rodape);
+    margin: 1rem;
+
+}
+
+.resposta_estilizada{
+    font-family: var(--font-secundaria);
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+.botao_voltar{
+    background-color: var(--cor-color);
+    color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 2.5rem;
+    text-decoration: none;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 8px;
+    border-color: var(--cor-rodape);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+.botao_voltar:hover{
+    background-color: var(--cor-secundaria);
+}

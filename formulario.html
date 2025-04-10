@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/style2.css" href="./styles/style3Erros.css">
+    <script src="./js/formulário.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="capa.html">
+                <img src="./assents/setaVoltar.png">Voltar
+            </a>
+            <img src="./assents/logoTrilhas2.png" class="imagem__trilhas">
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <form>
+            <h1 class="apresentacao__conteudo">Formulário de inscrição</h1>
+            <p class="apresentacao__conteudo__texto">Complete os campos abaixo para se inscrever no Programa Trilhas.
+            </p>
+            <div>
+                <h2 class="apresentacao__conteudo__subtexto">Informações pessoais</h2>
+                <div class="linha__informacoes__pessoais">
+                    <div>
+                        <div class="secao">
+                            <label class="apresentacao__nome">Nome completo</label>
+                            <input id="campname" class="apresentacao__preencher erro" type="text" name="nome"
+                                placeholder="Digite seu nome completo ">
+                        </div>
+                        <div class="secao">
+                            <label class="apresentacao__nome">CPF</label>
+                            <input id="campcpf" class="apresentacao__preencher erro" type="text" name="cpf"
+                                placeholder="000.000.000-00" maxlength="11">
+                        </div>
+                        <div class="secao">
+                            <label class="apresentacao__nome">E-mail</label>
+                            <input id="campemail" class="apresentacao__preencher erro" type="email" name="email"
+                                placeholder="exemplo@email.com">
+                        </div>
+                        <div class="secao">
+                            <label class="apresentacao__nome">Identidade</label>
+                            <input id="campid" class="apresentacao__preencher__pdf" type="file" name="identidade">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="secao">
+                            <label for="campdata" class="apresentacao__nome">Data de nascimento</label>
+                            <input id="campdata" class="apresentacao__preencher erro" type="date" name="nascimento"
+                                required>
+                        </div>
+                        <div class="secao">
+                            <label class="apresentacao__nome">Sexo</label>
+                            <select id="campsexo" class="apresentacao__preencher erro" name="sexo">
+                                <option value="" disabled selected hidden>Selecione</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="secao">
+                            <label class="apresentacao__nome">Telefone</label>
+                            <input id="campfone" class="apresentacao__preencher erro" type="tel" name="telefone"
+                                placeholder="(00) 00000-0000" maxlength="10">
+
+                        </div>
+                        <img class="imagem__jovem__sentado" src="./assents/jovemSentado.png"
+                            alt="desenho de um jovem programando">
+                    </div>
+                </div>
+            </div>
+            <h3 class="apresentacao__conteudo__subtexto">Informação residencial</h3>
+            <div class="linha__residencial">
+                <div>
+                    <div class="secao">
+                        <label class="apresentacao__nome">CEP</label>
+                        <input id="campcep" class="apresentacao__preencher erro" type="text" name="cep"
+                            placeholder="00000-000" maxlength="8">
+                    </div>
+                    <div class="secao">
+                        <label class="apresentacao__nome">Comprovante residencial</label>
+                        <input id="comprovante" class="apresentacao__preencher__pdf" type="file" name="comprovante">
+                    </div>
+                </div>
+                <div class="linha__residencial__subdivisao">
+                    <div>
+                        <div class="secao">
+                            <label class="apresentacao__nome ">Rua</label>
+                            <input id="camprua" class="apresentacao__preencher__residencial1" type="text" name="rua">
+                        </div>
+                        <div class="secao">
+                            <label class="apresentacao__nome">Cidade</label>
+                            <input id="campcidade" class="apresentacao__preencher__residencial1 " type="text"
+                                name="cidade">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="secao">
+                            <label class="apresentacao__nome">Número</label>
+                            <input id="campnumerocasa" class="apresentacao__preencher__residencial2" type="text"
+                                maxlength="3" name="numero">
+                        </div>
+                        <div class="secao">
+                            <label class="apresentacao__nome">Estado</label>
+                            <input id="campestado" class="apresentacao__preencher__residencial2" type="text"
+                                name="estado" maxlength="2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="apresentacao__conteudo__subtexto">Trilha de aprendizagem</h4>
+            <span class="apresentacao__conteudo__texto">Escolha uma opção</span>
+            <div class="conjunto__trilhas">
+                <label class="trilha__opcao">
+                    <input type="radio" name="trilha" value="frontend" hidden>
+                    <img src="./assents/frontend.png" alt="Frontend">
+                </label>
+                <label class="trilha__opcao">
+                    <input type="radio" name="trilha" value="backend" hidden>
+                    <img src="./assents/backend.png" alt="Backend">
+                </label>
+                <label class="trilha__opcao">
+                    <input type="radio" name="trilha" value="jogos" hidden>
+                    <img src="./assents/jogos.png" alt="Jogos">
+                </label>
+                <label class="trilha__opcao">
+                    <input type="radio" name="trilha" value="dados" hidden>
+                    <img src="./assents/dados.png" alt="Dados">
+                </label>
+                <label class="trilha__opcao">
+                    <input type="radio" name="trilha" value="design" hidden>
+                    <img src="./assents/design.png" alt="Design">
+                </label>
+            </div>
+            <div class="senha">
+            <label class="apresentacao__conteudo__subtexto">Senha</label>
+            <input class="apresentacao__preencher__senha" type="password" id="campsenha" placeholder="Digite sua senha" required maxlength="15">
+           </div>
+            <div class="texto__politica__privacidade">
+                <label>
+                    <input id="termos" type="checkbox" required>
+                    Declaro que li os <a href="https://policies.google.com" class="texto__politica__cor">Termos e
+                        Condições</a> e a <a href="https://www.iubenda.com/en/help/53008-terms-and-conditions-template​"
+                        class="texto__politica__cor">Política de Privacidade</a>.
+                </label>
+            </div>
+            <div class="botoes__final">
+                <button id="cancel" type="reset" class="botao__cancelar">Cancelar</button>
+                <button id="inscrever" type="submit" class="botao__inscrever">Inscrever</button>
+            </div>
+        </form>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Erick Santos e Anna Cardoso</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+
+:root {
+    --cor-fundo: #1A162E;
+    --azul-claro: #acc1f3;
+    --branco: #d9d9d9;
+    --branco--fundo: #ffffff;
+    --azul--fundo: #131C50;
+
+    --fonte-principal: "Exo", sans-serif;
+    --fonte-secundaria: "Krona One", sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+.cabecalho__menu__link {
+    display: flex;
+    font-family: var(--fonte-principal);
+    font-weight: 550;
+    font-size: 1.5rem;
+    color: var(--branco);
+    text-decoration: none;
+    margin: 2% 5%;
+    gap: 0.94rem;
+    width: 50%;
+}
+
+.imagem__trilhas {
+    width: 20%;
+    position: absolute;
+    top: 5.3vh;
+    left: 64vw;
+    
+}
+
+.apresentacao__conteudo {
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--azul-claro);
+    text-decoration: none;
+    padding: 0 5%;
+    width: 50%;
+}
+
+.apresentacao__conteudo__texto {
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: var(--azul-claro);
+    text-decoration: none;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.apresentacao__conteudo__subtexto {
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--azul-claro);
+    text-decoration: none;
+    padding-top: 1%;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.linha__informacoes__pessoais {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*coloquei 3 colunas, mas no site mostra apenas 2 coulans. Fiz isso 
+    para que, quando o usuário desse zoom, os elementos não se deslocanssem*/
+    margin-left: 5%;
+    width: 70%;
+    gap: 11.25rem;
+}
+
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.31rem;
+    padding-top: 2%;
+}
+
+.apresentacao__nome {
+    font-family: var(--azul-claro);
+    font-weight: 550;
+    font-size: 1rem;
+    color: var(--azul-claro);
+    text-decoration: none;
+}
+
+.apresentacao__preencher,
+.apresentacao__preencher__residencial1,
+.apresentacao__preencher__residencial2 {
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: var(--cor-fundo);
+}
+
+.apresentacao__preencher {
+    width: 30.63rem;
+}
+
+.apresentacao__preencher__pdf {
+    width: 30.63rem;
+    height: 10rem;
+    background-color: #d6d3d1;
+    border-radius: 8px;
+    color: var(--cor-fundo);
+    margin-bottom: 10%;
+}
+
+.linha__residencial {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    width: 70%;
+    gap: 11.25rem;
+}
+
+.linha__residencial__subdivisao {
+    display: flex;
+    gap: 3.75rem;
+}
+
+.apresentacao__preencher__residencial1 {
+    width: 18.75rem;
+}
+
+.apresentacao__preencher__residencial2 {
+    width: 8rem;
+}
+
+.conjunto__trilhas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    width: 50%;
+    gap: 0.94rem;
+}
+
+.trihas__retangulo {
+    width: 16rem;
+    height: 7.5rem;
+    background-color: #d6d3d1;
+    border-radius: 8px;
+    color: var(--cor-fundo);
+}
+
+.trilha__opcao img {
+    width: 100%;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    transition: border 0.3s;
+    cursor: pointer;
+}
+
+.trilha__opcao input:checked + img {
+    border-color: #F3541C; /* Cor de destaque quando selecionado */
+    box-shadow: 0 0 10px #F3541C;
+}
+
+.botao__privacidade {
+    width: 1.19rem;
+    height: 1.19rem;
+    background-color: #d6d3d1;
+    border-radius: 8px;
+    color: var(--cor-fundo);
+}
+
+.texto__politica__privacidade {
+    display: flex;
+    justify-content: left;
+    color: var(--azul-claro);
+    font-size: 1.25rem;
+    padding-top: 2%;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.texto__politica__cor {
+    color: #F3541C;
+}
+
+.apresentacao__preencher__img__pdf {
+    width: 30.63rem;
+    height: 10rem;
+}
+
+.botoes__final {
+    display: flex;
+    gap: 0.94rem;
+    margin-left: 5%;
+    padding-top: 1%;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3.13rem;
+    width: 70%;
+}
+
+.botao__cancelar {
+    width: 7.5rem;
+    height: 3rem;
+    background-color: var(--branco--fundo);
+    border-radius: 8px;
+    color: #0039A5;
+    border: 0.19rem solid #0039A5;
+}
+
+.botao__inscrever {
+    width: 10rem;
+    height: 3rem;
+    background-color: #0039A5;
+    border-radius: 8px;
+    color: var(--branco--fundo);
+}
+
+.rodape {
+    color: var(--branco--fundo);
+    background-color: var(--azul--fundo);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1.5rem;
+    position: relative;
+    top: 12.5rem;
+    width: 100%;
+}
+
+.senha{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items:start;
+}
+.apresentacao__preencher__senha{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    margin-left: 4.5rem;
+}
+  
+
+  
+@media (max-width: 1024px) {
+.imagem__jovem__sentado{
+    display: none;
+}
+    .linha__informacoes__pessoais,
+    .linha__residencial,
+    .conjunto__trilhas {
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin-left: 5%;
+        gap: 0;
+    }
+  
+    .apresentacao__preencher{
+        width: 100%;
+    }
+    .apresentacao__preencher__pdf,
+    .apresentacao__preencher__img__pdf{
+        width: 100%;
+        height: 13rem;
+    }
+    .apresentacao__conteudo__subtexto{
+        padding-top: 1.5rem;
+    }
+
+    .botoes__final {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .botao__cancelar,
+    .botao__inscrever {
+        width: 80%;
+    }
+    .conjunto__trilhas{
+        margin-top: 1rem;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .apresentacao__conteudo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 1rem;
+        width: 92%;
+    }
+    .apresentacao__conteudo__subtexto{
+        padding-top: 2rem;
+        width: 100%;
+        font-size: 1.7rem;
+    }
+
+    .linha__informacoes__pessoais{
+        gap: 0;
+
+    }
+    .linha__residencial,
+    .conjunto__trilhas {
+        grid-template-columns: 1fr;
+        gap: 0rem;
+    }
+
+    .linha__residencial__subdivisao {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .apresentacao__preencher,
+    .apresentacao__preencher__residencial1,
+    .apresentacao__preencher__residencial2,
+    .apresentacao__preencher__pdf {
+        width: 100%;
+    }
+    .apresentacao__preencher__pdf,
+    .apresentacao__preencher__img__pdf{
+        width: 100%;
+        height: 10rem;
+    }
+  
+   
+    .botoes__final {
+        margin-left: 2rem;
+        padding-top: 1rem;
+        flex-direction:row;
+        gap: 1rem;
+        width: 22rem;
+    }
+
+    .texto__politica__privacidade {
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .conjunto__trilhas{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .trihas__retangulo{
+        width: 10rem;
+    }
+    .imagem__retangulo__trilhas__subdivisao{
+        width: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagem__trilhas{
+        width: 28%;
+        position: absolute;
+        top: 1.3rem;
+    }
+    .cabecalho__menu__link {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .rodape {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .botoes__final {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .botao__cancelar,
+    .botao__inscrever {
+        width: 100%;
+    }
+
+    .texto__politica__privacidade {
+        flex-direction: column;
+        font-size: 0.9rem;
+        padding: 1rem 0;
+        margin-left: 2rem;
+        width: 90%;
+    }
+    .conjunto__trilhas{
+        margin-top: 1rem;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

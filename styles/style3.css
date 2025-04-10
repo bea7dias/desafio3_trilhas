@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+:root {
+    --cor-fundo: #1A162E;
+    --azul-claro: #acc1f3;
+    --branco: #d9d9d9;
+    --branco--fundo: #ffffff;
+    --azul--fundo: #131C50;
+
+    --fonte-principal: "Exo", sans-serif;
+    --fonte-secundaria: "Krona One", sans-serif;
+}
+
+body{
+    background-color: #123458;
+    color: #ffffff;
+
+}
+
+.conjunto__cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+.botao__voltar__conjunto{
+display: flex;
+align-items: center;
+justify-content:start;
+gap: 60rem;
+margin-top: 1rem;
+margin-left: 9rem;
+}
+.botao__voltar{
+    /* position:absolute;*/
+     font-family: var(--fonte-principal);
+     color: var(--branco--fundo);
+     text-decoration: none;
+     font-size: 1.2rem;
+     font-weight: bold;
+    /* margin-top: 1rem;*/
+ }
+.logo__trilhas{
+    width: 20rem;
+}
+.seta__voltar{
+    width: 1rem;
+}
+.imagem__cadastro{
+    width: 16rem;
+}
+.conjunto__voltar{
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 6rem;
+    margin-top: 1.4rem;
+}
+.conjunto__palavras{
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--branco--fundo);
+    text-decoration: none;
+
+}
+.conjunto__input{
+    height: 2rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+}
+.botoes{
+    display: flex;
+    padding-top: 1rem;
+    gap: 2.5rem;
+}
+.botao__cancelar{
+    width: 7.5rem;
+    height: 2.8rem;
+    background-color: var(--branco--fundo);
+    border-radius: 8px;
+    color: #0039A5;
+    border: 0.19rem solid #0039A5;
+}
+.botao__criar{
+    width: 7.5rem;
+    height: 2.8rem;
+    background-color: #0039A5;
+    border-radius: 8px;
+    color: var(--branco--fundo);
+}
+
+.botao__cancelar:hover{
+    background-color: var(--branco);
+}
+
+.botao__criar:hover{
+    background-color: var(--azul-claro);
+}
+
+
+    @media (max-width: 480px){
+        .botao__voltar__conjunto{
+            gap: 10rem;
+            margin-left: 2rem;
+        }
+        .logo__trilhas{
+            width: 8rem;
+        }
+        .imagem__cadastro{
+            width: 8rem;
+        }
+        .conjunto__palavras{
+            font-size: 1.5rem;
+        }
+        .conjunto__voltar{
+            margin-left: 0.6rem;
+           
+        }
+        .botao__voltar{
+            font-size: 0.8rem;
+        }
+        .seta__voltar{
+            width: 0.8rem;
+        }
+
+    }

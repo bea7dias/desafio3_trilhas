@@ -1,0 +1,156 @@
+@import url('https://fonts.cdnfonts.com/css/tt-octosquares-trl');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Trad+Guides&display=swap');
+
+:root{
+    --cor-fundo: #123458;
+    --cor-color: #ffffff;
+    --cor-secundaria: #d4c9be;
+    --cor-rodape: #030303;
+
+    --font-principal: 'TT Octosquares Trial Variable', sans-serif;
+    --font-secundaria: "Montserrat", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
+}
+
+.content__center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    gap: 0.75rem;
+}
+
+.logo__principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: var(--font-principal);
+    color: var(--cor-color);
+    font-size: 6.25rem;
+    font-weight: 500;
+}
+
+.logo__pequena {
+    width: 8rem;
+    height: 8rem;
+}
+
+.buttoms {
+    display: flex;
+    align-content: space-between;
+    gap: 2rem;
+}
+
+.buttoms__login,
+.buttoms__inscrito {
+    background-color: var(--cor-color);
+    color: var(--cor-fundo);
+    text-decoration: none;
+    width: 18.75rem;
+    height: 6.25rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-family: var(--font-principal);
+    font-size: 5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttoms__inscrito {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.buttoms__inscrito:hover{
+    background-color: var(--cor-secundaria);
+}
+
+.buttoms__login:hover{
+   background-color: var(--cor-secundaria);
+}
+
+.rodape {
+    background-color: var(--cor-rodape);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 1rem;
+    font-family: var(--font-secundaria);
+    text-decoration: none;
+    font-size: 2.5rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+@media (max-height: 882px){
+    .buttoms__edital, .buttoms__inscrito{
+        width: 17rem;
+        height: 6rem;
+        font-size: 2.5rem;
+    }
+
+    .rodape{
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo__principal {
+        font-size: 5rem;
+    }
+
+    .buttoms__edital,
+    .buttoms__inscrito {
+        width: 16rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .rodape {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .logo__principal {
+        font-size: 2.5rem;
+        gap: 0.5rem;
+    }
+
+    .logo__pequena {
+        width: 3.9rem;
+        height: 3.9rem;
+    }
+
+    .buttoms {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
