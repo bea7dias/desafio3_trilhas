@@ -30,21 +30,24 @@ function logarUsuario() {
     }
 }
 
-const dados = JSON.parse(localStorage.getItem("usuarioLogado"));
-
-if (!dados) {
-  alert("Nenhum usuário logado.");
-} else {
-  document.getElementById("usuarioNome").textContent = dados.nome || "";
-  document.getElementById("usuarioCpf").textContent = dados.cpf || "";
-  document.getElementById("usuarioEmail").textContent = dados.email || "";
-  document.getElementById("usuarioData").textContent = dados.nascimento || "";
-  document.getElementById("usuarioTel").textContent = dados.telefone || "";
-  document.getElementById("usuarioCep").textContent = dados.cep || "";
-  document.getElementById("usuarioRua").textContent = dados.rua || "";
-  document.getElementById("usuarioCidade").textContent = dados.cidade || "";
-  document.getElementById("usuarioNum").textContent = dados.numero || "";
-  document.getElementById("usuarioEstado").textContent = dados.estado || "";
-  document.getElementById("usuarioTrilha").textContent = dados.trilha || "";
-  document.getElementById("usuarioSexo").textContent = dados.sexo || "";
-}
+if (window.location.pathname.includes("card.html")) {
+    const dados = JSON.parse(localStorage.getItem("usuarioLogado"));
+  
+    if (!dados) {
+      alert("Nenhum usuário logado.");
+      window.location.href = "login.html"; 
+    } else {
+      document.getElementById("usuarioNome").textContent = dados.nome || "";
+      document.getElementById("usuarioCpf").textContent = dados.cpf || "";
+      document.getElementById("usuarioEmail").textContent = dados.email || "";
+      document.getElementById("usuarioData").textContent = dados.nascimento || "";
+      document.getElementById("usuarioTel").textContent = dados.telefone || "";
+      document.getElementById("usuarioCep").textContent = dados.cep || "";
+      document.getElementById("usuarioRua").textContent = dados.rua || "";
+      document.getElementById("usuarioCidade").textContent = dados.cidade || "";
+      document.getElementById("usuarioNum").textContent = dados.numero || "";
+      document.getElementById("usuarioEstado").textContent = dados.estado || "";
+      document.getElementById("usuarioTrilha").textContent = dados.trilha || "";
+      document.getElementById("usuarioSexo").textContent = dados.sexo || "";
+    }
+  }
